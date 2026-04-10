@@ -27,7 +27,6 @@ jobs:
             - name: Run a one-line script
               run: echo "Hello windows"
     build-api:
-        needs: build-app
         runs-on: Windows-latest
         steps:
             - name: Run a one-line script
