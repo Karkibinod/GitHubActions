@@ -1,1 +1,6 @@
+name : A basic workflow
 
+on:
+    push:
+        branches: [ "main"]
+        branches-ingnore: ["ignore"]
